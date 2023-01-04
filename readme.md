@@ -18,7 +18,7 @@ This sequence assumes
 Download Helm dependencies:
 
 ```bash
-~/temporal-helm$ helm dependencies update
+$ helm dependencies update
 ```
 
 ## Install Temporal with Helm Chart
