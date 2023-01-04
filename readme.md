@@ -160,7 +160,7 @@ and navigate to http://127.0.0.1:8080 in your browser.
 The dockerFile at the root of the folder can be used to dockerize the application to be deloped on Kubernetes
 
 ```
-docker build -t starwars-node .
+docker build -t temporal-app .
 
 ```
 
