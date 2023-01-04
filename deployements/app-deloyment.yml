@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: temporal-app-deployment
+spec:
+  selector:
+    matchLabels:
+      app: temporal-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: temporal-app
+    spec:
+      containers:
+        - name: temporal-app
+          image: temporal-app
+          ports:
+            - containerPort: 3000
