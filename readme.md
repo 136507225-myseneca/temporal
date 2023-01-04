@@ -1,4 +1,4 @@
-# Deploying Tepleral server and Temperal appication for Production on EKS
+# Deploying Temporal server and Temporal appication for Production on EKS
 
 ## Install Temporal service on a Kubernetes cluster
 
