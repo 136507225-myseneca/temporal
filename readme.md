@@ -194,7 +194,7 @@ Observe that app-service created
 
 ### write a CICD for the app
 
-The CICD process can be handeled with aws codePipline and the buildspec file containes the CICD stages for code AWS Code build to deploy the application.
+The CICD process can be handeled with aws codePipline and the buildspec file containes the CICD stages for AWS Code build to deploy the application.
 AWS_ACCESS_KEY_ID, REPOSITORY_URI, TAG are all held in code build enviroment vaiables
 
 ### How would you improve this app?
